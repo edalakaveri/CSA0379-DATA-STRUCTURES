@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main(){
+   int num1, num2, result ;
+   int addition(int, int) ; // function declaration
+   clrscr() ;
+   
+   num1 = 10 ;
+   num2 = 20 ;
+   
+   result = addition(num1, num2) ; // calling function 
+   
+   printf("SUM = %d", result) ;
+   getch() ;
+}
+int addition(int a, int b)  // called function
+{   
+   return (a+b) ;   
+}
